@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import '@/styles/fonts.css';
+@import '@/styles/variables.css';
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply relative box-border scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground relative h-full min-h-screen min-w-[375px] overflow-x-hidden font-sans font-normal;
+  }
+
+  ::backdrop {
+    @apply backdrop-blur-md;
+  }
+}
