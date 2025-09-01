@@ -3,12 +3,12 @@
   --font-sans: 'Kanit', ui-sans-serif, sans-serif, system-ui;
   --background: #262626;
   --foreground: #f7f7f7;
-  --card: #171717;
+  --card: #262626;
   --card-foreground: #fafafa;
-  --popover: #171717;
+  --popover: #262626;
   --popover-foreground: #f7f7f7;
   --primary: #6c63ff;
-  --primary-foreground: #171717;
+  --primary-foreground: #f7f7f7;
   --secondary: #262626;
   --secondary-foreground: #f7f7f7;
   --muted: #262626;
@@ -18,7 +18,8 @@
   --destructive: #ee4b2b;
   --border: #ffffff1a;
   --input: #ffffff26;
-  --ring: #737373;
+  --ring: var(--primary);
+  --shadow-md: 0 0 6px var(--primary);
 }
 
 @theme inline {
@@ -50,12 +51,5 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --shadow-2xs: var(--shadow-2xs);
-  --shadow-xs: var(--shadow-xs);
-  --shadow-sm: var(--shadow-sm);
-  --shadow: var(--shadow);
   --shadow-md: var(--shadow-md);
-  --shadow-lg: var(--shadow-lg);
-  --shadow-xl: var(--shadow-xl);
-  --shadow-2xl: var(--shadow-2xl);
 }

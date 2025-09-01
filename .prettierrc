@@ -15,10 +15,7 @@
   "importOrder": [
     "<THIRD_PARTY_MODULES>",
     "^@/app/(.*)$",
-    "^@/pages/(.*)$",
-    "^@/widgets/(.*)$",
-    "^@/features/(.*)$",
-    "^@/entities/(.*)$",
+    "^@/modules/(.*)$",
     "^@/shared/(.*)$",
     "^../(.*)$",
     "^./(.*)$",
@@ -30,5 +27,13 @@
   "plugins": [
     "@trivago/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss"
-  ]
+  ],
+  "overrides": [
+      {
+        "files": ["*.html"],
+        "options": {
+          "printWidth": 100
+        }
+      }
+    ]
 }

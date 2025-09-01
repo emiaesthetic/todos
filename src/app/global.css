@@ -12,7 +12,7 @@
   }
 
   body {
-    @apply bg-background text-foreground relative h-full min-h-screen min-w-[375px] overflow-x-hidden font-sans font-normal;
+    @apply bg-background text-foreground relative h-full min-h-screen min-w-[375px] overflow-x-hidden font-sans text-base font-normal;
   }
 
   ::backdrop {

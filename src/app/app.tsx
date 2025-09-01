@@ -1,4 +1,4 @@
-import { Todos } from '@/modules/todo-list';
+import { Todos } from '@/modules/todos';
 
 export function App() {
   return <Todos />;
