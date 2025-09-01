@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { Task, TaskId, TaskPayload } from './types';
 
-const STORAGE_KEY = 'tasks';
+const STORAGE_KEY = 'todos';
 
 const tasksStorage = {
   fetchTasks: (): Task[] => {

@@ -15,7 +15,7 @@ export function TodosList({ tasks, renderTask }: TodosListProps) {
           <img
             className="w-[80%] max-w-[576px]"
             src={emptyTodosListImg}
-            alt="To-do list is empty"
+            alt="Todos is empty"
           />
         </div>
       ) : (
